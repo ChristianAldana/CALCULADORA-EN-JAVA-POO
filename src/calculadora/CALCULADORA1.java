@@ -31,16 +31,18 @@ public class CALCULADORA1 {
         int suma = this.Num_001 + this.Num_002;
         return suma;
     }
-public int restar(){
-        int restar = this.Num_001 + this.Num_002;
+    public int restar(){
+        int restar = this.Num_001 - this.Num_002;
         return restar;
     }
 
+    public int multiplicar(){
+        int multiplicar = this.Num_001 * this.Num_002;
+        return multiplicar;
+    }
+
+
     
     
-    
-    
-    
-   
-    
+      
 }
