@@ -45,6 +45,28 @@ public class CALCULADORA1 {
         double division = (double)this.Num_001 / (double)this.Num_002;
         return division;
     }
+
+    
+    
+    public int getNum_001() {
+        return Num_001;
+    }
+
+    public void setNum_001(int Num_001) {
+        this.Num_001 = Num_001;
+    }
+
+    public int getNum_002() {
+        return Num_002;
+    }
+
+    public void setNum_002(int Num_002) {
+        this.Num_002 = Num_002;
+    }
+    
+    
+    
+    
 }
     
     
