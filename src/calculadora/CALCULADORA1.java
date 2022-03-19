@@ -41,8 +41,12 @@ public class CALCULADORA1 {
         return multiplicar;
     }
 
-
+    public double dividir(){
+        double division = (double)this.Num_001 / (double)this.Num_002;
+        return division;
+    }
+}
     
     
       
-}
+
